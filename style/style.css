@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* Mobile first 
+
+Colors 
+
+Green: #49a09d
+Purple: #5f2c82
+
+*/
+@media screen and (min-width: 300px) and (max-width: 768px){
+    
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+div#flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+    margin-top: 20px;
+    min-width: 230px;
+    
+}
+
+div#image { 
+    background-color: blue;
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/pexels.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+
+
+div#form {
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 250px; 
+    height: 320px; 
+    border-radius: 0px 0px 20px 20px;  
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+}
+
+div#form p {
+    font-size: .9em;
+    text-align: center;
+    padding: 0 15px 0px 15px;
+}
+
+label {
+    box-sizing: border-box;
+    width: 0px;
+    padding-top: 5px;
+}
+
+div#username {
+    background-color: #5f2c82;
+    border-radius: 7px;
+    height: 43px;
+    margin-top:10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div#password {
+    background-color: #5f2c82;
+    border-radius: 7px;
+    height: 43px;
+    margin-top:10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    color: white;
+    padding-left: 5px;
+    font-size: 30px;
+}
+
+.material-symbols-rounded {
+    color: white;
+    padding-left: 5px;
+    font-size: 30px;
+}
+
+input {
+    border-radius: 5px;
+    width: 183px;
+    height: 35px;
+    background-color: #93c9c7;
+    font-size: .9em;
+    text-align: center;
+}
+
+input#submit {
+    width: 229px;
+    height: 35px;
+    margin-top: 9px;
+    background-color: #4fbab6;
+    color: white;
+    border: #288585 1px solid;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px #00000061;
+}
+
+input#submit:hover {
+    background-color: #288585;
+}
+
+input#fpass {
+    width: 229px;
+    height: 35px;
+    margin-top: 9px;
+    background-color: white;
+    color: #4fbab6;
+    border: #288585 1px solid;
+    font-size: 0.9em;
+}
+
+input#fpass:hover {
+    background-color: #288585 ;
+    color: white;
+    
+}
+
