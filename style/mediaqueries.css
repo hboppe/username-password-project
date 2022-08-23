@@ -17,13 +17,13 @@
 
     div#image {
         width: 31%;
-        height: 79vh;
+        height: 325px;
         border-radius: 20px 0px 0px 20px;
     }
 
     div#form {
         width: 52%;
-        height: 79vh;
+        height: 325px;
         border-radius: 0px 20px 20px 0px;
     }
 
