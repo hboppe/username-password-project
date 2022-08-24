@@ -18,7 +18,7 @@ Purple: #5f2c82
 }
 
 body, html {
-    background-color:#5f2c82 ;
+    background-color:#6566bd ;
 }
 
 body {
@@ -33,7 +33,7 @@ section {
     background-color: white;
     margin: 0px;
     width: 300px;
-    height: 500px;
+    height: 520px;
     box-sizing: border-box;
     border-radius: 20px;
     overflow: hidden;
@@ -61,6 +61,27 @@ div#form > h1 {
 
 div#form > p {
     text-align: center;
+    margin-bottom: 10px;
+}
+
+div.login {
+    margin: 0px 10px 15px 10px;
+    background-color: #5f2c82;
+    border-radius: 8px;
+}
+
+input.login {
+    background-color: rgb(189, 189, 248);
+    width: calc(100% - 40px);
+    display: inline-block;
+    height: 26px;
+    transform: translate(2px, -5px);
+    border-radius: 8px;
+}
+
+input.login:focus-within {
+    background-color: white;
+    font-size: 1em;
 }
 
 section  label {
@@ -68,8 +89,37 @@ section  label {
 }
 
 section > div > form > div > span.material-icons {
-    background-color: blue;
-    
+    background-color: #5f2c82;
+    color: white;
+    padding: 3px;
+    margin: 3px 0px 0px 0px;
+    width: 26px;
+    box-sizing: border-box;
+
+}
+
+input.button {
+    display: block;
+}
+
+form > input[type="submit"] {
+    background-color: rgb(191, 137, 222);
+    color: white;
+    margin: 0px 10px 15px 10px;
+    width: 95%;
+    height: 34px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+form > input[type="button"] {
+    background-color: rgb(191, 137, 222);
+    margin: 0px 10px 15px 10px;
+    width: 95%;
+    height: 34px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 15px;
 }
 
 

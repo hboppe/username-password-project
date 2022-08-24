@@ -1,9 +1,52 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+
+
+    body, html {
+        background-image: linear-gradient(to bottom, purple, rgb(59, 71, 196));
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body {
+        flex-direction: row-reverse;
+        
+    }
+    
+    section {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        height: 400px;
+    }
+
+    div#image {
+        width: 40%;
+        height:100% ;
+    }
 }
+
+
 
 @media screen and (min-width: 992px) {
 
+    body, html {
+        background-image: linear-gradient(to bottom, purple, rgb(59, 71, 196));
+        width: 100vw;
+        height: 100vh;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 800px;
+
+    }
+
+    div#image {
+        width: 300px;
+        height: 100%;
+    }
     
 }
