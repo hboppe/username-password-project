@@ -25,14 +25,17 @@
             <form action="action_page.php" method="post">
                 <div class="login">
                     <span class="material-icons">person</span>
-                    <input type="email" name="email" id="iemail" class="login"><label for="iemail">Login</label>
+                    <input type="email" name="email" id="iemail" class="login"><label for="iemail" required maxlength="30" >Login</label>
                 </div>
                 <div class="login">
                     <span class="material-icons">vpn_key</span>
-                    <input type="password" name="password" id="ipassword" class="login"><label for="ipassword">password</label>
+                    <input type="password" name="password" id="ipassword" class="login" minlength="8"><label for="ipassword" >password</label>
                 </div>
                 <input type="submit" value="Submit" class="button">
-                <input type="button" value="Forgot password?" class="button">
+                <a href="pass.html">
+                    <p>Forgot password?</p>
+                </a>
+                <!--<input type="button" value="Forgot password?" class="button"> -->
             </form>
         </div>
     </section>
